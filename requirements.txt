@@ -1,0 +1,21 @@
+# Async Web App
+starlette
+uvicorn
+asyncio
+asgiref
+syncer
+httpx
+
+# Data
+asyncpg==0.20.1
+pydantic==1.5.1
+tortoise-orm
+
+# Queueing
+faust
+faust[uvloop,fast,rocksdb,redis]
+
+# Automated Tests
+pytest
+locust
+locust-swarm

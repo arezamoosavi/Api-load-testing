@@ -1,0 +1,7 @@
+PORT=5000
+HOST=0.0.0.0
+BASE_URL=http://0.0.0.0:8000
+HEALTH_CHECK_URL=http://0.0.0.0:8000/health_check
+POSTGRES_URL=postgres://user:password@postgres:5432/db
+REDIS_SERVER=redis://redis:6385/0
+KAFKA_SERVER=kafka://kafka:9092
